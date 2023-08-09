@@ -1,0 +1,136 @@
+@media screen and (max-width: 1023.98px) {
+    .card {
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+
+    .card__image-link {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card__image-next {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+}
+
+/* tablet */
+@media  screen and (min-width: 768px) and (max-width: 1023.98px) {
+    .top-tour__list,
+    .popular__list-item {
+        gap: 20px;
+    }
+
+    .top-tour__list,
+    .popular__list-item {
+        --col:2;
+    }
+
+    .footer {
+        padding: 0px 20px;
+    }
+
+    .footer-top-list {
+        display: block;
+        --width-first-card: 400px;
+    }
+
+    .footer-top__item {
+        margin-bottom: 20px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 767.98px) {
+    .travel-top__item-link {
+        font-size: 7px;
+        line-height: 10px;
+        min-width: 100px;
+    }
+
+    .travel-top__close {
+        display: none;
+    }
+
+    .card__image {
+        min-width: 100%;
+    }
+
+    .card__body-name {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .top-tour,
+    .travel-card,
+    .popular-container,
+    .gem-container,
+    .footer  {
+        padding: 0px 20px;
+    }
+
+    .top-tour__header,
+    .popular__header,
+    .gem__header {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+    }
+
+    .top-tour__list {
+        --col: 1;
+        gap: 20px;
+    }
+
+    .top-tour__item-top-label,
+    .top-tour__item-rating-review-count,
+    .top-tour__item-duration
+    .top-tour__item-btn {
+        font-size: 12px;
+    }
+
+    .top-tour__item-name {
+        font-size: 16px;
+    }
+
+    .top-tour__item-btn {
+        width: 100%;
+    }
+
+    .popular__list-item {
+        --col: 1;
+        gap: 20px;
+    }
+
+    .gem__card-list {
+        --col: 1;
+        gap: 20px;
+    }
+
+    .footer-top-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-bottom {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom__social-list {
+        justify-content: flex-start;
+        margin-top: 20px;
+        gap: 30px;
+    }
+
+    .footer-bottom__social-item {
+        width: 32px;
+    }
+
+    .footer-bottom__social-item-image {
+        width: 100%;
+    }
+}

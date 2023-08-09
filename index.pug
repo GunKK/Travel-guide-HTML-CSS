@@ -8,6 +8,7 @@ html(lang="en")
         link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
         link(href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet")
         link(rel="stylesheet", href="./assets/css/app.css")
+        link(rel="stylesheet", href="./assets/css/responsive.css")
     body 
         .travel-container 
             .travel-top 
@@ -18,8 +19,8 @@ html(lang="en")
                         | Travel Guide 
                     a.travel-top__item-link 
                         | Tours
-                    .travel-top__close
-                        image.travel-top__close-icon(src='./assets/images/close-icon.png' alt='close icon') 
+                .travel-top__close
+                    image.travel-top__close-icon(src='./assets/images/close-icon.png' alt='close icon') 
             .travel-card 
                 .card 
                     .card__image
@@ -209,10 +210,10 @@ html(lang="en")
                     .footer-bottom__copy-right Copyright© 2021 UIHUT LLC. All rights reserved
                     .footer-bottom__social-list 
                         a.footer-bottom__social-item 
-                            image(src='./assets/images/fb.png')
+                            image.footer-bottom__social-item-image(src='./assets/images/fb.png')
                         a.footer-bottom__social-item 
-                            image(src='./assets/images/linkedin.png')
+                            image.footer-bottom__social-item-image(src='./assets/images/linkedin.png')
                         a.footer-bottom__social-item 
-                            image(src='./assets/images/twitter.png')
+                            image.footer-bottom__social-item-image(src='./assets/images/twitter.png')
                         a.footer-bottom__social-item 
-                            image(src='./assets/images/instagram.png')
+                            image.footer-bottom__social-item-image(src='./assets/images/instagram.png')
