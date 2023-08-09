@@ -1,0 +1,218 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Travel Guide
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet")
+        link(rel="stylesheet", href="./assets/css/app.css")
+    body 
+        .travel-container 
+            .travel-top 
+                .travel-top__list-item 
+                    a.travel-top__item-link 
+                        | Thing to do 
+                    a.travel-top__item-link.travel-top__item-link--active 
+                        | Travel Guide 
+                    a.travel-top__item-link 
+                        | Tours
+                    .travel-top__close
+                        image.travel-top__close-icon(src='./assets/images/close-icon.png' alt='close icon') 
+            .travel-card 
+                .card 
+                    .card__image
+                        image.card__image-link(src='./assets/images/img1.png' alt='img1')
+                        a.card__image-next next
+                    .card__body
+                        .card__body-name
+                            h4 
+                                | Where in the word: 
+                            span.card__body-location 
+                                | Asia  /  Thailand  /  Bangkok
+                        .card__body-review 
+                            image(src='./assets/images/star.png' alt='star')
+                            span.card__body-review-rating
+                                | 4.8 
+                            span.card__body-review-count 
+                                | (12 reviews)
+                        .card__body-summary
+                            | Sacred & Religious Sites · Shopping Malls · Gift & Specialty Shops
+                        .card__body-title
+                            | City of Angels
+                        .card__body-description 
+                            | Enjoy cultural, historical, and culinary exploration during your holiday in Bangkok, the capital of Thailand and the most populous city in the country. With over 8 million residents, Bangkok remains a sprawling metropolitan
+                        .card__body-date 
+                            | In your trip Sep 28 - Oct 1
+            .top-tour 
+                .top-tour__header Top Bangkok
+                .top-tour__list 
+                    .top-tour__item 
+                        .top-tour__item-top 
+                            image.top-tour__item-top-image(src='./assets/images/top-tour3.png')
+                            span.top-tour__item-top-label From $40
+                        .top-tour__item-body 
+                            .top-tour__item-name 
+                                | Thailands Ayutthaya Temples Cruise from Bangkok
+                            .top-tour__item-rating
+                                .top-tour__item-rating-review 
+                                    image.top-tour__item-star(src='./assets/images/star.png') 
+                                    .top-tour__item-rating-review-count (12 reviews)
+                                .top-tour__item-duration Duration: 9 hours
+                            a.top-tour__item-btn Tours Price $61 
+                    .top-tour__item 
+                        .top-tour__item-top 
+                            image.top-tour__item-top-image(src='./assets/images/top-tour1.png')
+                            span.top-tour__item-top-label From $40
+                        .top-tour__item-body 
+                            .top-tour__item-name 
+                                | Thailands Ayutthaya Temples Cruise from Bangkok
+                            .top-tour__item-rating
+                                .top-tour__item-rating-review 
+                                    image.top-tour__item-star(src='./assets/images/star.png') 
+                                    .top-tour__item-rating-review-count (12 reviews)
+                                .top-tour__item-duration Duration: 9 hours
+                            a.top-tour__item-btn Tours Price $61 
+                    .top-tour__item 
+                        .top-tour__item-top 
+                            image.top-tour__item-top-image(src='./assets/images/top-tour2.png')
+                            span.top-tour__item-top-label From $60
+                        .top-tour__item-body 
+                            .top-tour__item-name 
+                                | FLoating Markets Day Trip from Bangkok
+                            .top-tour__item-rating
+                                .top-tour__item-rating-review 
+                                    image.top-tour__item-star(src='./assets/images/star.png') 
+                                    .top-tour__item-rating-review-count (12 reviews)
+                                .top-tour__item-duration Duration: 9 hours
+                            a.top-tour__item-btn Tours Price $61  
+                    //- .top-tour__item 
+                    //-     .top-tour__item-top 
+                    //-         image.top-tour__item-top-image(src='./assets/images/top-tour3.png')
+                    //-         span.top-tour__item-top-label From $70
+                    //-     .top-tour__item-body 
+                    //-         .top-tour__item-name 
+                    //-             | Bangkok Dinner Cruise on the Chao Phraya River
+                    //-         .top-tour__item-rating
+                    //-             .top-tour__item-rating-review 
+                    //-                 image.top-tour__item-star(src='./assets/images/star.png') 
+                    //-                 .top-tour__item-rating-review-count (12 reviews)
+                    //-             .top-tour__item-duration Duration: 9 hours
+                    //-         a.top-tour__item-btn Tours Price $61 
+            .popular-container
+                .popular__header Popular things to do in Bangkok
+                .popular__list-item 
+                    .popular__item
+                        .popular__item-top 
+                            image.popular__item-top-image(src='./assets/images/top-tour1.png')
+                            span.popular__item-top-label Must see 
+                        .popular__item-body 
+                            .popular__item-date Sep 28 10:00 AM - 1:00 PM
+                            .popular__item-place The Grand Palace
+                            .popular__item-rating 
+                                image.popular__item-rating-star(src='./assets/images/star.png')
+                                span.popular__item-rating-reviews 4.8 (12 reviews)
+                    .popular__item
+                        .popular__item-top 
+                            image.popular__item-top-image(src='./assets/images/top-tour1.png')
+                            span.popular__item-top-label Must see 
+                        .popular__item-body 
+                            .popular__item-date Sep 28 10:00 AM - 1:00 PM
+                            .popular__item-place The Grand Palace
+                            .popular__item-rating 
+                                image.popular__item-rating-star(src='./assets/images/star.png')
+                                span.popular__item-rating-reviews 4.8 (12 reviews)
+                    .popular__item
+                        .popular__item-top 
+                            image.popular__item-top-image(src='./assets/images/top-tour1.png')
+                            span.popular__item-top-label Must see 
+                        .popular__item-body 
+                            .popular__item-date Sep 28 10:00 AM - 1:00 PM
+                            .popular__item-place The Grand Palace
+                            .popular__item-rating 
+                                image.popular__item-rating-star(src='./assets/images/star.png')
+                                span.popular__item-rating-reviews 4.8 (12 reviews)
+                    .popular__item
+                        .popular__item-top 
+                            image.popular__item-top-image(src='./assets/images/top-tour1.png')
+                            span.popular__item-top-label Must see 
+                        .popular__item-body 
+                            .popular__item-date Sep 28 10:00 AM - 1:00 PM
+                            .popular__item-place The Grand Palace
+                            .popular__item-rating 
+                                image.popular__item-rating-star(src='./assets/images/star.png')
+                                span.popular__item-rating-reviews 4.8 (12 reviews)
+            .gem-container 
+                .gem__header Hidden gems in Bangkok
+                .gem__card-list 
+                    .gem__card-item
+                        image.gem__card-item-image(src='./assets/images/gem1.png')
+                        .gem__card-wrap
+                            .gem__card-title Bangkok Trip
+                            .gem__card-date 27 Sep, 2020
+                    .gem__card-item
+                        image.gem__card-item-image(src='./assets/images/gem1.png')
+                        .gem__card-wrap
+                            .gem__card-title Bangkok Trip
+                            .gem__card-date 27 Sep, 2020
+                    .gem__card-item
+                        image.gem__card-item-image(src='./assets/images/gem1.png')
+                        .gem__card-wrap
+                            .gem__card-title Bangkok Trip
+                            .gem__card-date 27 Sep, 2020
+                    .gem__card-item
+                        image.gem__card-item-image(src='./assets/images/gem1.png')
+                        .gem__card-wrap
+                            .gem__card-title Bangkok Trip
+                            .gem__card-date 27 Sep, 2020
+                .gem__button
+                    a.gem__button-link Explore All
+            .footer 
+                .footer-top 
+                    .footer-top-list 
+                        .footer-top__item
+                            .footer-top__item-header 
+                                image.footer-plane-icon(src='./assets/images/plane.png')
+                                span.footer-plane-title Airtrav
+                            .footer-top__item-body 
+                                .footer-top__item-desc Similarly, a loan taken out to buy a car may be secured by the car. The duration of the loan.
+                                .footer-top__item-contact
+                                    input.footer-top__item-input(type='text', placeholder='Enter tour email')
+                                    a.footer-top__item-input-btn
+                                        img(src='./assets/images/arrow-icon.png')
+                        .footer-top__item
+                            .footer-top__item-header Services 
+                            ul
+                                li Trip Planner
+                                li Trip Planner
+                                li Trip Planner
+                                li Trip Planner
+                                li Trip Planner
+                        .footer-top__item
+                            .footer-top__item-header Support 
+                            ul
+                                li Account
+                                li Legal
+                                li Contact
+                                li Terms & Condition
+                                li Privacy Policy
+                        .footer-top__item
+                            .footer-top__item-header Business 
+                            ul
+                                li Success
+                                li About Locato
+                                li Blog
+                                li Information
+                                li Travel Guide
+                .footer-bottom 
+                    .footer-bottom__copy-right Copyright© 2021 UIHUT LLC. All rights reserved
+                    .footer-bottom__social-list 
+                        a.footer-bottom__social-item 
+                            image(src='./assets/images/fb.png')
+                        a.footer-bottom__social-item 
+                            image(src='./assets/images/linkedin.png')
+                        a.footer-bottom__social-item 
+                            image(src='./assets/images/twitter.png')
+                        a.footer-bottom__social-item 
+                            image(src='./assets/images/instagram.png')
